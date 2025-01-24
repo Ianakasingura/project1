@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment - AKASINGURA.COM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="logo">Your Website</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="tech.html">Tech</a></li>
+                <li><a href="health.html">Health</a></li>
+                <li><a href="sports.html">Sports</a></li>
+                <li><a href="entertainment.html">Entertainment</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Entertainment Content -->
+    <main>
+        <section id="entertainment">
+            <h2>Entertainment</h2>
+            <p>Catch up on the latest celebrity news and happenings in entertainment.</p>
+        </section>
+    </main>
+</body>
+</html>
+<footer style="background-color: #1a1a1a; color: white; padding: 20px;">
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+      <div style="margin-right: 20px;"> <!-- Adjusted margin -->
+          <div style="margin-bottom: 10px;">
+              <img src="akasingura-logo.png" alt="akasingura Logo" style="height: 40px;">
+          </div>
+          <div style="display: flex; gap: 8px;"> <!-- Reduced gap -->
+              <a href="https://twitter.com" target="_blank">
+                  <img src="images/twitter-x.svg" alt="Twitter" style="height: 20px; filter: invert(1);">
+              </a>
+              <a href="https://linkedin.com" target="_blank">
+                  <img src="images/linkedin.svg" alt="LinkedIn" style="height: 20px; filter: invert(1);">
+              </a>
+              <a href="https://facebook.com" target="_blank">
+                  <img src="images/facebook.svg" alt="Facebook" style="height: 20px; filter: invert(1);">
+              </a>
+              <a href="https://instagram.com" target="_blank">
+                  <img src="images/instagram.svg" alt="Instagram" style="height: 20px; filter: invert(1);">
+              </a>
+              <a href="https://youtube.com" target="_blank">
+                  <img src="images/youtube-icon.svg" alt="YouTube" style="height: 20px; filter: invert(1);">
+              </a>
+          </div>
+      </div>
+      <div style="margin-right: 20px;"> <!-- Adjusted margin -->
+          <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 2px;">
+              <li><a href="#" style="color: white; text-decoration: none; display: block; padding: 2px 0;">Staff</a></li>
+              <li><a href="#" style="color: white; text-decoration: none; display: block; padding: 2px 0;">Contact Us</a></li>
+              <li><a href="#" style="color: white; text-decoration: none; display: block; padding: 2px 0;">Advertise</a></li>
+          </ul>
+      </div>
+      <div>
+          <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 2px;">
+              <li><a href="#" style="color: white; text-decoration: none; display: block; padding: 2px 0;">Terms of Service</a></li>
+              <li><a href="#" style="color: white; text-decoration: none; display: block; padding: 2px 0;">Privacy Policy</a></li>
+              <li><a href="#" style="color: white; text-decoration: none; display: block; padding: 2px 0;">Privacy Dashboard</a></li>
+          </ul>
+      </div>
+  </div>
+</footer>
+
+<style>
+  a {
+      position: relative;
+  }
+  a::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 2px;
+      display: block;
+      margin-top: 5px;
+      right: 0;
+      background: #fff;
+      transition: width .3s ease, background-color .3s ease;
+  }
+  a:hover::after {
+      width: 100%;
+      left: 0;
+      background: #fff;
+  }
+</style>
